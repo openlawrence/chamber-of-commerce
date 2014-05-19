@@ -1,4 +1,4 @@
-[{'addr': [{'row1': 'Mr. Craig Marsh'},
+data= [{'addr': [{'row1': 'Mr. Craig Marsh'},
            {'row2': '623 Massachusetts St.,Lawrence, KS  66044'},
            {'row3': '(785) 843-0763'},
            {'row4': 'Fax (785) 843-0805'},
@@ -10017,4 +10017,3 @@
   'href': u'http://www.theresultscompanies.com',
   'member_since': u'2013',
   'name': u'The Results Companies'}]
-None

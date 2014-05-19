@@ -233,4 +233,4 @@ class LawrenceChamber:
                             data1= self.parse_main_table(t)
                             data1['category']=new_category
                             total.append(data1)
-        print pprint.pprint(total)
+        print "data=",pprint.pformat(total)
