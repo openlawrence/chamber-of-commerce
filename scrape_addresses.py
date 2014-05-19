@@ -5,4 +5,4 @@ from shove import Shove
 from scrape import LawrenceChamber
                 
 l = LawrenceChamber()
-l.parse_categories_links()
+l.parse_categories_addresses()
