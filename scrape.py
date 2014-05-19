@@ -223,7 +223,7 @@ class LawrenceChamber:
                 x = x.strip()
                 if x != 'Lawrence Chamber of Commerce | Lawrence, KS':
                     parts2.append(x.capitalize())
-            new_category=[" ".join(parts2)]
+            new_category=" ".join(parts2)
 
 
             for t in soup.findAll('table') :
