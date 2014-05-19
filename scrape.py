@@ -202,7 +202,7 @@ class LawrenceChamber:
                         if "addr" not in data:
                             data["addr"]=self.parse_address(c)
                     else:
-                        print "SKIP",c.name, c
+                        #print "SKIP",c.name, c
                         pass
                     #print "Content",c
         return data
@@ -212,7 +212,7 @@ class LawrenceChamber:
         total =[]
 
         for l in self.file_data2:
-            print "Loading", l
+            #print "Loading", l
             d =self.file_data2[l]
             soup = BeautifulSoup(d)
             #print l
